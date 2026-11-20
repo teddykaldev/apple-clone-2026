@@ -1,0 +1,26 @@
+.macpro-container{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    z-index: 2;
+}
+.macpro-images-container,
+.macpro-images-container img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.macpro-images-container img{
+    object-fit: cover;
+    object-position: center;
+}
+.macpro-text{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
