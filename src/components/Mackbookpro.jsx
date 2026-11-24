@@ -10,7 +10,7 @@ function Mackbookpro(){
             <section className="macpro-images-container">
                 <picture className="macpro-images">
                     <source 
-                       media="(max-width:767px)"
+                       media="(max-width:959px)"
                        srcSet={smallmacpro}
                     />
                     <source 
@@ -22,10 +22,10 @@ function Mackbookpro(){
             </section>
             <div className="macpro-text">
                 <h1>MacBook Pro</h1>
-                <h2>PROLED XDR Display</h2>
-                <div className="macpro-links">
-                    <a href="#" id="macpro-learn">Learn more</a>
-                    <a href="#" id="macpro-buy">Buy</a>
+                <h2> <span className="macpro-gradient-text">PROLED XDR Display</span> </h2>
+                <div className="macpro-btns">
+                    <a href="#" id="macpro-learn-btn">Learn more</a>
+                    <a href="#" id="macpro-buy-btn">Buy</a>
                 </div>
             </div>
         </div>

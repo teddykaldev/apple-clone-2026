@@ -23,9 +23,9 @@ function Mackbook(){
             <div className="mac-text">
                 <h1>MacBook pro</h1>
                 <h2>14-inch model now with M6.</h2>
-                <div className="mac-links">
-                    <a href="#" id="mac-learn">Learn more</a>
-                    <a href="#" id="mac-buy">Buy</a>
+                <div className="mac-btns">
+                    <a href="#" id="mac-learn-btn">Learn more</a>
+                    <a href="#" id="mac-buy-btn">Buy</a>
                 </div>
             </div>
         </div>

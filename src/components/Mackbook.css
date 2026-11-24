@@ -4,6 +4,8 @@
     height: 600px;
     overflow: hidden;
     z-index: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
 }
 .mac-images-container,
 .mac-images-container img{
@@ -23,4 +25,36 @@
     text-align: center;
     color: white;
     z-index: 1;
+}
+.mac-text h1{
+    font-size: 58px;
+    font-weight: 500;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.mac-text h2{
+    font-weight: 400;
+    line-height: 1.6;
+}
+.mac-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#mac-learn-btn{
+    text-decoration: none;
+    background-color: #087cff;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius:20px;
+} 
+#mac-buy-btn{
+        text-decoration: none;
+    color: #087cff;
+    padding: 10px 15px;
+    border-radius:20px; 
+    border: 1px solid #087cff; 
 }
